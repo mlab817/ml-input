@@ -17,7 +17,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlab817/ml-input.git"
+  },
   "dependencies": {
     "@stencil/core": "^2.7.0"
   },
