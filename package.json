@@ -1,0 +1,31 @@
+{
+  "name": "ml-input",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/ml-input.js",
+  "module": "dist/ml-input.js",
+  "browser": "dist/ml-input.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "serve": "serve .",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@stencil/core": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "puppeteer": "^10.0.0",
+    "workbox-build": "^4.3.1"
+  }
+}

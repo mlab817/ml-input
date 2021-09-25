@@ -1,0 +1,23 @@
+input {
+	font-size: 14px;
+	padding: 5px 12px;
+	line-height: 20px;
+	color:  '#000';
+	vertical-align: middle;
+	background-color: '#fff';
+	border: 1px solid #d0d7de;
+	border-radius: 6px;
+	outline: none;
+	text-align: right;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
